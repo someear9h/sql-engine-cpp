@@ -1,0 +1,14 @@
+# Ignore the compiled binary
+sql_engine
+
+# Ignore VSCode configuration
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Build artifacts
+*.o
+*.out
+*.exe
+*.log
