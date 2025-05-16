@@ -3,20 +3,7 @@
 
 #include <string>
 #include <vector>
-
-enum class TokenType {
-    KEYWORD,
-    IDENTIFIER,
-    SYMBOL,
-    NUMBER,
-    STRING,
-    END_OF_FILE
-};
-
-struct Token {
-    TokenType type;
-    std::string value;
-};
+#include "token.h"  
 
 class Lexer {
 public:
@@ -34,6 +21,5 @@ private:
     std::string input;
     size_t position;
 };
-
 
 #endif // LEXER_H
