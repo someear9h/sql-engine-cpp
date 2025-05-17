@@ -1,5 +1,6 @@
 # Ignore the compiled binary
 sql_engine
+sql-engine
 
 # Ignore VSCode configuration
 .vscode/

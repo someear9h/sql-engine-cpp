@@ -4,12 +4,7 @@
 #include <vector>
 #include <memory>
 #include "token.h"  // using shared Token definition
-
-// AST Node for a basic SELECT statement like: SELECT name FROM users;
-struct SelectStatement {
-    std::vector<std::string> columns;
-    std::string tableName;
-};
+#include "ast.h"
 
 class Parser {
 public:
